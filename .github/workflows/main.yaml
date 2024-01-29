@@ -1,8 +1,8 @@
 name: Run test
 on:
   push:
-#    branches:
-#      - staging
+    branches:
+      - staging
 jobs:
   build:
     name: Test on iOS simulator
